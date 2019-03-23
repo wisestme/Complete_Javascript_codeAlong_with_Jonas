@@ -15,6 +15,8 @@ birthYear = currentYear - age;
 alert('your year of birth is ' + birthYear);
 */
 
+//compare BMI
+/*
 let heightGloria, heightChijioke, weightGloria, weightChijioke,
 bmiGloria, bmiChijioke, isBMIGloriaGreater;
 
@@ -28,3 +30,14 @@ bmiChijioke = weightChijioke / (heightChijioke * heightChijioke);
 isBMIGloriaGreater = bmiGloria > bmiChijioke;
 
 alert("Is Gloria's BMI greater than Chijioke's? " + isBMIGloriaGreater);
+*/
+let firstName = 'Wisest';
+let age = 32;
+
+if(age < 13) {
+	alert(firstName + ' is a boy');
+} else if (age >= 13 && age < 20) {
+	alert(firstName + ' is a teenager');
+} else {
+	alert(firstName + ' is an adult');
+}
