@@ -57,7 +57,7 @@ let teamMike, teamJohn, teamMary,
 	teamMaryGame1, teamMaryGame2, teamMaryGame3,
 	teamMikeTotal, teamJohnTotal, teamMaryTotal,
 	teamMikeAverage, teamJohnAverage, teamMaryAverage,
-	teamMaryWins, teamJohnWins;
+	teamMaryWins, teamMikeWins teamJohnWins;
 
 	/* variable assignment
 */
@@ -84,10 +84,13 @@ teamMaryTotal = teamMaryGame1 + teamMaryGame2 + teamMaryGame3;
 teamMaryAverage = teamMaryTotal / 3;
 
 // winner condition
-if (teamJohnAverage > teamMikeAverage){
+if (teamJohnAverage > teamMikeAverage && teamJohnAverage > teamMaryAverage){
 	teamJohnWins = true;
-} else {
-	teamJohnMike = false;
+} else if (teamMaryAverage > teamMikeAverage && teamMaryAverage > teamJohnAverage) {
+	teamMaryWins = true;
+}
+else {
+	teamMikeWins = true;
 }
 
 // winner alert
