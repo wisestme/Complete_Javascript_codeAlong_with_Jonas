@@ -72,3 +72,5 @@ teamMikeAverage = teamMikeTotal / 3;
 teamJohnGame1 = 89;
 teamJohnGame2 = 120;
 teamJohnGame3 = 103;
+teamJohnTotal = teamJohnGame1 + teamJohnGame2 + teamJohnGame3;
+teamJohnAverage = teamJohnTotal / 3;
