@@ -74,3 +74,10 @@ teamJohnGame2 = 120;
 teamJohnGame3 = 103;
 teamJohnTotal = teamJohnGame1 + teamJohnGame2 + teamJohnGame3;
 teamJohnAverage = teamJohnTotal / 3;
+
+// winner condition
+if (teamJohnAverage > teamMikeAverage){
+	teamJohnWins = true;
+} else {
+	teamJohnMike = false;
+}
