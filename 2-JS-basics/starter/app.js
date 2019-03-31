@@ -57,7 +57,7 @@ let teamMike, teamJohn, teamMary,
 	teamMaryGame1, teamMaryGame2, teamMaryGame3,
 	teamMikeTotal, teamJohnTotal, teamMaryTotal,
 	teamMikeAverage, teamJohnAverage, teamMaryAverage,
-	teamMaryWins, teamMikeWins teamJohnWins;
+	teamMaryWins, teamMikeWins, teamJohnWins;
 
 	/* variable assignment
 */
@@ -77,7 +77,7 @@ teamJohnTotal = teamJohnGame1 + teamJohnGame2 + teamJohnGame3;
 teamJohnAverage = teamJohnTotal / 3;
 
 // Mary's team scores
-teamMaryGame1 = 89;
+teamMaryGame1 = 150;
 teamMaryGame2 = 120;
 teamMaryGame3 = 103;
 teamMaryTotal = teamMaryGame1 + teamMaryGame2 + teamMaryGame3;
