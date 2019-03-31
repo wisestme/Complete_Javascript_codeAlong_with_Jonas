@@ -51,7 +51,7 @@ alert(drink);
 
 // variable declarations
 
-let teamMike, teamJohn, 
+let teamMike, teamJohn, teamMary,
 	teamMikeGame1, teamMikeGame2, teamMikeGame3,
 	teamJohnGame1, teamJohnGame2, teamJohnGame3,
 	teamMikeTotal, teamJohnTotal,
