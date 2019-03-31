@@ -96,6 +96,8 @@ else {
 // winner alert
 if (teamJohnWins) {
 	alert('John\'s team won with an average score of ' + teamJohnAverage);
+} else if (teamMaryWins) {
+	alert('Mary\'s team won with an average score of ' + teamJohnAverage);
 } else {
 	alert('Mike\'s team won with an average score of ' + teamMikeAverage);
 }
