@@ -31,10 +31,12 @@ isBMIGloriaGreater = bmiGloria > bmiChijioke;
 
 alert("Is Gloria's BMI greater than Chijioke's? " + isBMIGloriaGreater);
 */
+
+/*
 let firstName = 'Wisest';
 let age = 19;
 let drink;
-/*
+
 if(age < 13) {
 	alert(firstName + ' is a boy');
 } else if (age > 12 && age < 20) {
@@ -42,6 +44,8 @@ if(age < 13) {
 } else {
 	alert(firstName + ' is an adult');
 }
-*/
+
 drink = age < 18 ? 'juice' : 'beer';
 alert(drink);
+*/
+
