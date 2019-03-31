@@ -81,7 +81,7 @@ teamMaryGame1 = 89;
 teamMaryGame2 = 120;
 teamMaryGame3 = 103;
 teamMaryTotal = teamMaryGame1 + teamMaryGame2 + teamMaryGame3;
-
+teamMaryAverage = teamMaryTotal / 3;
 
 // winner condition
 if (teamJohnAverage > teamMikeAverage){
