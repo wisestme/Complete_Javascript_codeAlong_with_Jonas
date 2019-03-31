@@ -81,3 +81,10 @@ if (teamJohnAverage > teamMikeAverage){
 } else {
 	teamJohnMike = false;
 }
+
+// winner alert
+if (teamJohnWins) {
+	alert('John\'s team won with an average score of ' + teamJohnAverage);
+} else {
+	alert('Mike\'s team won with an average score of ' + teamMikeAverage);
+}
