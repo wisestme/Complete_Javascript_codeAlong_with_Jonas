@@ -54,9 +54,10 @@ alert(drink);
 let teamMike, teamJohn, teamMary,
 	teamMikeGame1, teamMikeGame2, teamMikeGame3,
 	teamJohnGame1, teamJohnGame2, teamJohnGame3,
-	teamMikeTotal, teamJohnTotal,
-	teamMikeAverage, teamJohnAverage,
-	teamJohnWins;
+	teamMaryGame1, teamMaryGame2, teamMaryGame3,
+	teamMikeTotal, teamJohnTotal, teamMaryTotal,
+	teamMikeAverage, teamJohnAverage, teamMaryAverage,
+	teamMaryWins, teamJohnWins;
 
 	/* variable assignment
 */
