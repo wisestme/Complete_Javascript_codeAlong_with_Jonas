@@ -101,11 +101,11 @@ else {
 }
 
 // winner alert
-if (teamsMikeMaryDraw){
+if (teamsMikeMaryDraw && teamMikeAverage > teamJohnAverage){
 	alert("Replay for Mary and Mike as both teams have a tie");
-} else if (teamsMikeJohnDraw) {
+} else if (teamsMikeJohnDraw && teamMikeAverage > teamMaryAverage) {
 	alert("Replay for John and Mike as both teams have a tie");
-} else if (teamsJohnMaryDraw) {
+} else if (teamsJohnMaryDraw && teamMikeAverage < teamJohnAverage) {
 	alert("Replay for Mary and John as both teams have a tie");
 } else if (teamJohnWins) {
 	alert('John\'s team won with an average score of ' + teamJohnAverage);
