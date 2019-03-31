@@ -64,15 +64,15 @@ let teamMike, teamJohn, teamMary,
 */
 
 // Mike's team scores
-teamMikeGame1 = 90;
-teamMikeGame2 = 94;
-teamMikeGame3 = 90;
+teamMikeGame1 = 103;
+teamMikeGame2 = 120;
+teamMikeGame3 = 150;
 teamMikeTotal = teamMikeGame1 + teamMikeGame2 + teamMikeGame3;
 teamMikeAverage = teamMikeTotal / 3;
 
 // John's team scores
 teamJohnGame1 = 120;
-teamJohnGame2 = 103;
+teamJohnGame2 = 90;
 teamJohnGame3 = 150;
 teamJohnTotal = teamJohnGame1 + teamJohnGame2 + teamJohnGame3;
 teamJohnAverage = teamJohnTotal / 3;
