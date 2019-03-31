@@ -49,3 +49,11 @@ drink = age < 18 ? 'juice' : 'beer';
 alert(drink);
 */
 
+// variable declarations
+
+let teamMike, teamJohn, 
+	teamMikeGame1, teamMikeGame2, teamMikeGame3,
+	teamJohnGame1, teamJohnGame2, teamJohnGame3,
+	teamMikeTotal, teamJohnTotal,
+	teamMikeAverage, teamJohnAverage,
+	teamJohnWins;
