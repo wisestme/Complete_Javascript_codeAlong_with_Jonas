@@ -57,7 +57,8 @@ let teamMike, teamJohn, teamMary,
 	teamMaryGame1, teamMaryGame2, teamMaryGame3,
 	teamMikeTotal, teamJohnTotal, teamMaryTotal,
 	teamMikeAverage, teamJohnAverage, teamMaryAverage,
-	teamMaryWins, teamMikeWins, teamJohnWins;
+	teamMaryWins, teamMikeWins, teamJohnWins,
+	teamsMikeMaryDraw, teamsMikeJohnDraw, teamsJohnMaryDraw;
 
 	/* variable assignment
 */
