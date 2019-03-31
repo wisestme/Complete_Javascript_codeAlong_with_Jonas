@@ -89,7 +89,9 @@ if(teamMikeAverage === teamMaryAverage) {
 	teamsMikeMaryDraw = true;
 } else if (teamMikeAverage === teamJohnAverage) {
 	teamsMikeJohnDraw = true;
-}  else if (teamJohnAverage > teamMikeAverage && teamJohnAverage > teamMaryAverage){
+} else if (teamMaryAverage === teamJohnAverage) {
+	teamsJohnMaryDraw = true;
+} else if (teamJohnAverage > teamMikeAverage && teamJohnAverage > teamMaryAverage){
 	teamJohnWins = true;
 } else if (teamMaryAverage > teamMikeAverage && teamMaryAverage > teamJohnAverage) {
 	teamMaryWins = true;
