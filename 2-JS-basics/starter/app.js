@@ -65,6 +65,8 @@ let teamMike, teamJohn,
 teamMikeGame1 = 116;
 teamMikeGame2 = 94;
 teamMikeGame3 = 123;
+teamMikeTotal = teamMikeGame1 + teamMikeGame2 + teamMikeGame3;
+teamMikeAverage = teamMikeTotal / 3;
 
 // John's team scores
 teamJohnGame1 = 89;
