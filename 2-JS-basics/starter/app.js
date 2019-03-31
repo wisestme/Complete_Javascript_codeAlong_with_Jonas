@@ -71,9 +71,9 @@ teamMikeTotal = teamMikeGame1 + teamMikeGame2 + teamMikeGame3;
 teamMikeAverage = teamMikeTotal / 3;
 
 // John's team scores
-teamJohnGame1 = 89;
-teamJohnGame2 = 120;
-teamJohnGame3 = 103;
+teamJohnGame1 = 120;
+teamJohnGame2 = 103;
+teamJohnGame3 = 150;
 teamJohnTotal = teamJohnGame1 + teamJohnGame2 + teamJohnGame3;
 teamJohnAverage = teamJohnTotal / 3;
 
