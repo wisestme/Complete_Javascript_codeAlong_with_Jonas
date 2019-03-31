@@ -65,3 +65,8 @@ let teamMike, teamJohn,
 teamMikeGame1 = 116;
 teamMikeGame2 = 94;
 teamMikeGame3 = 123;
+
+// John's team scores
+teamJohnGame1 = 89;
+teamJohnGame2 = 120;
+teamJohnGame3 = 103;
