@@ -85,7 +85,9 @@ teamMaryTotal = teamMaryGame1 + teamMaryGame2 + teamMaryGame3;
 teamMaryAverage = teamMaryTotal / 3;
 
 // winner condition
-if (teamJohnAverage > teamMikeAverage && teamJohnAverage > teamMaryAverage){
+if(teamMikeAverage === teamMaryAverage) {
+	teamsMikeMaryDraw = true;
+}else if (teamJohnAverage > teamMikeAverage && teamJohnAverage > teamMaryAverage){
 	teamJohnWins = true;
 } else if (teamMaryAverage > teamMikeAverage && teamMaryAverage > teamJohnAverage) {
 	teamMaryWins = true;
