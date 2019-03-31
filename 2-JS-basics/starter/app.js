@@ -57,3 +57,11 @@ let teamMike, teamJohn,
 	teamMikeTotal, teamJohnTotal,
 	teamMikeAverage, teamJohnAverage,
 	teamJohnWins;
+
+	/* variable assignment
+*/
+
+// Mike's team scores
+teamMikeGame1 = 116;
+teamMikeGame2 = 94;
+teamMikeGame3 = 123;
